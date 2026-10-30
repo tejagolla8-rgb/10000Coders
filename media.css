@@ -1,0 +1,28 @@
+.card{
+    width: 40%;
+    
+    background-color: lightblue;
+    text-align: center;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+@media(min-width: 325px) and (max-width: 480px) {
+    .card{
+        width: 90%;
+        background-color: red;
+    }
+}
+@media(min-width: 481px) and (max-width: 768px) {
+    .card{
+        width: 90%;
+        background-color:blue;
+    }
+}
+@media(min-width: 769px) and (max-width: 1200px) {
+    .card{
+        width: 90%;
+        background-color: green;
+    }
+}
